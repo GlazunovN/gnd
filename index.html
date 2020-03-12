@@ -101,7 +101,7 @@ setInterval( renderTime, 40 );
     var hours = now.getHours();
     var minutes = now.getMinutes();
     var seconds = now.getSeconds();
-    clock.strokeStyle = #28d1fa;
+    clock.strokeStyle = '#28d1fa';
     clock.lineWidth = 14;
     clock.lineCap = round;
     clock.fillStyle = gradient;
@@ -112,15 +112,15 @@ setInterval( renderTime, 40 );
     clock.stroke();
     // DATE
     clock.font = 700 24px Arial, sans-serif;
-    clock.fillStyle = #28d1fa;
+    clock.fillStyle = '#28d1fa';
     clock.fillText(today, 175, 250);
     // TIME
     clock.font = 14px Arial, sans-serif;
     clock.fillText(time, 185, 270);
     // BACKGROUND
     var gradient = clock.createRadialGradient( 250, 250, 5, 250, 250, 300 );
-    gradient.addColorStop( 0, #09303a );
-    gradient.addColorStop( 1, #000 );
+    gradient.addColorStop( 0, '#09303a' );
+    gradient.addColorStop( 1, '#000' );
     clock.fillStyle = gradient;
     clock.fillRect( 0, 0, 500, 500 );
       </script>
