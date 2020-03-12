@@ -124,6 +124,14 @@ setInterval( renderTime, 40 );
     clock.fillStyle = gradient;
     clock.fillRect( 0, 0, 500, 500 );
     </script>
+    <canvas id="clock" class="clock"></canvas>
+    <script>
+    <img src="" id="image" alt="Clock"/>
+    .clock {
+    display: none;
+    }
+document.querySelector('#image').src = clock.canvas.toDataURL();
+      </script>
 </body>
 
 </html>
