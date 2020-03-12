@@ -1,18 +1,18 @@
 {
-  "title": "UML Class",
-  "items": [
-    {
-      "type": "text",
-      "data": [
+    "title": "UML Class",
+    "items": [
         {
-          "text": "Разработка диаграммы",
-          "class": "md-title"
+            "type": "text",
+            "data": [
+                {
+                    "text": "Разработка диаграммы",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "data": "img/umlclass.jpg"
         }
-      ]
-    },
-    {
-      "type": "image",
-      "data": "img/umlclass.jpg"
-    }
-  ]
+    ]
 }
