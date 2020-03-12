@@ -59,6 +59,7 @@
   
   <h1>Лабораторная работа №3. Разработка SPA приложения<h1>
     <canvas id="clock" class="clock"></canvas>
+    <script>
     window.addEventListener( 'DOMContentLoaded', function () 
     {
     var clock = document.querySelector('#clock').getContext('2d');
@@ -128,7 +129,7 @@ setInterval( renderTime, 40 );
     display: none;
     }
     document.querySelector('#image').src = clock.canvas.toDataURL();
-    
+    </script>
 </body>
 
 </html>
