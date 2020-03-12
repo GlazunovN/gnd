@@ -104,7 +104,7 @@ setInterval( renderTime, 40 );
     clock.strokeStyle = '#28d1fa';
     clock.lineWidth = 14;
     clock.lineCap = 'round';
-    clock.fillStyle = '#000';
+    clock.fillStyle = gradient;
     clock.fillRect( 0, 0, 500, 500 );
     var newSeconds = seconds + ( miliSeconds / 1000 );
     clock.beginPath();
@@ -123,11 +123,6 @@ setInterval( renderTime, 40 );
     gradient.addColorStop( 1, '#000' );
     clock.fillStyle = gradient;
     clock.fillRect( 0, 0, 500, 500 );
-    <img src="" id="image" alt="Clock"/>
-    .clock {
-    display: none;
-    }
-document.querySelector('#image').src = clock.canvas.toDataURL();
       </script>
 </body>
 
